@@ -7,7 +7,7 @@
     body {
       font-family: Arial, sans-serif;
       text-align: center;
-      padding-top: 50px;
+      margin: 0;
       background: #ffeaa7;
     }
     h1 {
@@ -22,13 +22,77 @@
       border-radius: 10px;
       outline: none;
     }
+    /* Centering welcome page */
+    #welcome {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: #fab1a0;
+      padding: 20px;
+    }
+    #tip {
+      font-style: italic;
+      color: #2d3436;
+      margin: 10px 0;
+    }
+    button {
+      background-color: #d63031;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    button:hover {
+      background-color: #ff7675;
+      transform: scale(1.05);
+    }
+    #typingArea {
+      display: none;
+      padding-top: 50px;
+    }
   </style>
 </head>
 <body>
-  <h1>💥 Loud Typing Mode Activated 💥</h1>
-  <p>Type anything... every key makes a noise!</p>
-  <textarea id="typeArea" placeholder="Start typing..."></textarea>
 
+  <!-- Welcome Page -->
+  <div id="welcome">
+    <h1>🎉 Welcome to Loud Typing Mode 🎉</h1>
+    <p id="tip"></p>
+    <button onclick="startTypingMode()">Get Started</button>
+  </div>
+
+  <!-- Typing Page -->
+  <div id="typingArea">
+    <h1>💥 Loud Typing Mode Activated 💥</h1>
+    <p>Type anything... every key makes a noise!</p>
+    <textarea id="typeArea" placeholder="Start typing..."></textarea>
+  </div>
+
+  <script>
+    // Funny tips
+    const tips = [
+      "Warning: Your neighbours might complain! 🚓",
+      "Perfect for annoying coworkers 💼",
+      "Caution: May wake your sleeping cat 🐈",
+      "Best enjoyed with headphones 🎧",
+      "Type like a rockstar! 🎸"
+    ];
+    document.getElementById("tip").innerText =
+      tips[Math.floor(Math.random() * tips.length)];
+
+    // Start typing mode
+    function startTypingMode() {
+      document.getElementById("welcome").style.display = "none";
+      document.getElementById("typingArea").style.display = "block";
+    }
+  </script>
+
+  <!-- Your loud typing script -->
   <script src="loudtyping.js"></script>
 </body>
 </html>
