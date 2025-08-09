@@ -13,7 +13,7 @@
 - Member 1: Swathi Valsaraj - VJCET
 - Member 2: Aditya Maria Jose - VJCET
 ### Project Description
-[2-3 lines about what your project does]
+Loud Typing Mode is a playful web application that transforms your regular typing into a lively, chaotic experience. Every key you press triggers a random funny sound effect and displays a colorful visual effect on the screen — making typing loud, fun, and totally unpredictable. It’s perfect for anyone looking to break the monotony of silent typing and add excitement to their keyboard time. Whether you’re coding, chatting, or just goofing around, Loud Typing Mode makes sure every keystroke counts and entertains.
 
 ### The Problem (that doesn't exist)
 [What ridiculous problem are you solving?]
