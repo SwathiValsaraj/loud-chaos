@@ -46,13 +46,13 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![Screenshot1](https://github.com/SwathiValsaraj/loud-chaos/blob/main/Screenshot%202025-08-09%20082020.png)
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2](https://github.com/SwathiValsaraj/loud-chaos/blob/main/Screenshot%202025-08-09%20082043.png)
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3](https://github.com/SwathiValsaraj/loud-chaos/blob/main/Screenshot%202025-08-09%20082113.png)
 *Add caption explaining what this shows*
 
 # Diagrams
@@ -80,7 +80,7 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+[https://drive.google.com/file/d/124ndpf29Q5OPGJhZMFQfbmfWCDz4Uo2G/view?usp=sharing]
 *Explain what the video demonstrates*
 
 # Additional Demos
